@@ -1,0 +1,73 @@
+{
+  "cycle": [
+    {
+      "group": "normal",
+      "value": false,
+      "text": "Normal"
+    },
+    {
+      "group": "perm",
+      "value": false,
+      "text": "Permanent Press"
+    },
+    {
+      "group": "delicates",
+      "value": false,
+      "text": "Delicates"
+    },
+    {
+      "group": "heavy",
+      "value": false,
+      "text": "Heavy Duty / Bulky"
+    }
+  ],
+  "temp": [
+    {
+      "group": "hot",
+      "value": false,
+      "text": "Hot"
+    },
+    {
+      "group": "warm",
+      "value": false,
+      "text": "Warm"
+    },
+    {
+      "group": "cold",
+      "value": false,
+      "text": "Cold"
+    }
+  ],
+  "product": [
+    {
+      "group": "sensative",
+      "value": false,
+      "address": "images/sensative.png",
+      "text": "Tide Free + Gentile"
+    },
+    {
+      "group": "eco",
+      "value": false,
+      "address": "images/eco.png",
+      "text": "Purclean"
+    },
+    {
+      "group": "scent",
+      "value": false,
+      "address": "images/scent.png",
+      "text": "Tide + Febreeze Reg"
+    },
+    {
+      "group": "extra",
+      "value": false,
+      "address": "images/extra.png",
+      "text": "Tide + Frebreeze Sport"
+    },
+    {
+      "group": "default",
+      "value": false,
+      "address": "images/synthetics.png",
+      "text": "Tide + Downy"
+    }
+  ]
+}

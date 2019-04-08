@@ -1,0 +1,91 @@
+{
+  "choices": [
+    {
+      "group": "under",
+      "value": false,
+      "address": "images/undergarments.png",
+      "text": "Underwears / Socks"
+    },
+    {
+      "group": "athletic",
+      "value": false,
+      "address": "images/athletic.png",
+      "text": "Athletic"
+    },
+    {
+      "group": "synthetics",
+      "value": false,
+      "address": "images/synthetics.png",
+      "text": "Synthetics"
+    },
+    {
+      "group": "casual",
+      "value": false,
+      "address": "images/casual.png",
+      "text": "Casual"
+    },
+    {
+      "group": "bras",
+      "value": false,
+      "address": "images/bras.png",
+      "text": "Bras / Lingerie"
+    },
+    {
+      "group": "towels",
+      "value": false,
+      "address": "images/towels.png",
+      "text": "Sheets / Towels"
+    },
+    {
+      "group": "knits",
+      "value": false,
+      "address": "images/knits.png",
+      "text": "Knits"
+    },
+    {
+      "group": "blankets",
+      "value": false,
+      "address": "images/blankets.png",
+      "text": "Blankets"
+    }
+  ],
+  "colorselection" : [
+    {
+      "group": "whites",
+      "value": false,
+      "address": "images/whites.png"
+    },
+    {
+      "group": "colors",
+      "value": false,
+      "address": "images/colors.png"
+    },
+    {
+      "group": "mixed",
+      "value": false,
+      "address": "images/mixed.png"
+    }
+  ],
+  "prefselection" : [
+    {
+      "group": "sensative",
+      "value": false,
+      "address": "images/sensative.png"
+    },
+    {
+      "group": "eco",
+      "value": false,
+      "address": "images/eco.png"
+    },
+    {
+      "group": "scent",
+      "value": false,
+      "address": "images/scent.png"
+    },
+    {
+      "group": "extra",
+      "value": false,
+      "address": "images/extra.png"
+    }
+  ]
+}
