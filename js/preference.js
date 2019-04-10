@@ -4,6 +4,7 @@ var sensativediv = document.getElementById('sensative');
 var ecodiv = document.getElementById('eco');
 var scentdiv = document.getElementById('scent');
 var extradiv = document.getElementById('extra');
+var nodiv = document.getElementById('nopref');
 
 y = [];
 
@@ -45,6 +46,10 @@ function main() {
 
   extradiv.addEventListener('click', function () {
     picked(extradiv, 3);
+  });
+
+  nodiv.addEventListener('click', function () {
+    picked(nodiv, 4);
   });
 
 }

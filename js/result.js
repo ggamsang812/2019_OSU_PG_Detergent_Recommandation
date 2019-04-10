@@ -26,7 +26,7 @@ function printpref() {
   result.setAttribute('id', 'result');
   cont.appendChild(result);
 
-  if (prefstoredValue == null) {
+  if (prefstoredValue == null || prefstoredValue[1] == 4 || prefstoredValue[1] == ']') {
     txt = response.product[4].text;
   }else {
     var i = prefstoredValue[1];
@@ -41,7 +41,8 @@ function printtemp() {
   result = document.createElement('DIV');
   result.setAttribute('id', 'result');
   cont.appendChild(result);
-  console.log('print temp');
+
+  //console.log('print temp');
 
   var d = decidetemp();
   txt = response.temp[d].text;
@@ -65,7 +66,8 @@ function printcycle() {
   result = document.createElement('DIV');
   result.setAttribute('id', 'result');
   cont.appendChild(result);
-  console.log('print cycle');
+
+  //console.log('print cycle');
 
   var d = decidecycle();
   txt = response.cycle[d].text;
@@ -93,8 +95,8 @@ function putarray() {
     array.push(cstoredValue[i]);
   }
 
-  console.log(array[3]);
-  console.log(cstoredValue);
+  //console.log(array[3]);
+  //console.log(cstoredValue);
 }
 
 function reset() {
